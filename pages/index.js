@@ -21,8 +21,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          <h1> All content
-                &copy; 2022 Divyakshi Goyal and Molly Jensen</h1>
+          <p> All content
+                &copy; 2022 Divyakshi Goyal and Molly Jensen</p>
       </footer>
     </div>
   )
