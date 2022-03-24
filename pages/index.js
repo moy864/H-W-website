@@ -6,17 +6,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Minds Matter</title>
+        <title>Minding Matters</title>
         <meta name="description" content="wellbeing website" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Minds Matter!
+          Welcome to -we need a name-!
         </h1>
 
         <p className={styles.description}>
-          This website was developed by Div Goyal and Molly Jensen to explain ways you can help your own mental wellbeing. Have a look around to learn more
+          insert cringe slogan 
         </p>
       </main>
 
