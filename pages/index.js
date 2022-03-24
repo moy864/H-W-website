@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Minding Matters</title>
+        <title>Thinking Forwards</title>
         <meta name="description" content="wellbeing website" />
       </Head>
 
@@ -21,8 +21,18 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          <p> All content
+        <p> All content
                 &copy; 2022 Divyakshi Goyal and Molly Jensen</p>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
       </footer>
     </div>
   )
