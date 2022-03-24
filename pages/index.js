@@ -20,9 +20,8 @@ export default function Home() {
         </p>
       </main>
 
-      <span className={styles.footer}>
+      <footer className={styles.footer}>
           <h1> All content
-            <br />
                 &copy; 2022 Divyakshi Goyal and Molly Jensen</h1>
       </span>
       </footer>
