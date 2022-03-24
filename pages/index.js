@@ -6,9 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Minding Matters</title>
+        <title>Minds Matter</title>
         <meta name="description" content="wellbeing website" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -17,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          This website was developed by Div Goyal and Molly Jensen to explain ways you can help your own mental health
+          "This website was developed by Div Goyal and Molly Jensen to explain ways you can help your own mental wellbeing. Have a look around to learn more"
         </p>
 
       <footer className={styles.footer}>
