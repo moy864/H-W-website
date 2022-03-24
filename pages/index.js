@@ -18,6 +18,7 @@ export default function Home() {
         <p className={styles.description}>
           "This website was developed by Div Goyal and Molly Jensen to explain ways you can help your own mental wellbeing. Have a look around to learn more"
         </p>
+      </main>
 
       <footer className={styles.footer}>
         <a
