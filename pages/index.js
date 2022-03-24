@@ -22,6 +22,9 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
+          <h1> All content
+          <br />
+            &copy; {date.getFullYear()} Divyakshi Goyal and Molly Jensen</h1>
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
