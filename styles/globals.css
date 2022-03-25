@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-brand {
+grad {
         background: -webkit-linear-gradient(to right, #43cea2, #185a9d);
         color: transparent;
         -webkit-background-clip: text;
