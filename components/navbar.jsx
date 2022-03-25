@@ -43,22 +43,22 @@ export const Navbar = () => {
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className={'lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'}>
+          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/'>
-              <a className={'lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'}>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white '>
                 Home
               </a>
             </Link>
-            <Link href='/'
+            <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                Skills
+                Services
               </a>
             </Link>
             <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                Useful websites
+                About us
               </a>
-            </Link>>
+            </Link>
             <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Contact us
@@ -70,3 +70,4 @@ export const Navbar = () => {
     </>
   );
 };
+
