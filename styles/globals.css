@@ -11,6 +11,13 @@ a {
   text-decoration: none;
 }
 
+brand {
+        background: -webkit-linear-gradient(to right, #43cea2, #185a9d);
+        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 * {
   box-sizing: border-box;
 }
