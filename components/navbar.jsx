@@ -44,22 +44,22 @@ export const Navbar = () => {
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className={'lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'}>
-            <Link href={/"index"}>
+            <Link href='/'>
               <a className={'lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'}>
                 Home
               </a>
             </Link>
-            <Link href={/"Skills"}>
+            <Link href='/'}
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Skills
               </a>
             </Link>
-            <Link href={/"test"}>
+            <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Useful websites
               </a>
             </Link>>
-            <Link href={/"Contact"}>
+            <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Contact us
               </a>
