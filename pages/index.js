@@ -25,7 +25,8 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p> All content
-                &copy; 2022 Divyakshi Goyal and Molly Jensen</p>
+                &copy; 2022<br />
+                Divyakshi Goyal and Molly Jensen</p>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
