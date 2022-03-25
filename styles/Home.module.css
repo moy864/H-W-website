@@ -33,6 +33,13 @@
   text-decoration: none;
 }
 
+.grad {
+        background: -webkit-linear-gradient(to right, #43cea2, #185a9d);
+        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {
