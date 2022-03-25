@@ -10,7 +10,7 @@ export default function Home() {
         <title>Thinking Forwards</title>
         <meta name="description" content="wellbeing website" />
       </Head>
-
+      <Navbar />
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to<br />
