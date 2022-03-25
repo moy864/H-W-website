@@ -12,7 +12,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Thinking Forwards!
+          Welcome to <br>
+            <span className={"grad"}>
+                         Thinking Forwards          
+            </span>
         </h1>
 
         <p className={styles.description}>
