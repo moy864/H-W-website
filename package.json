@@ -7,9 +7,8 @@
     "lint": "next lint",
     "build:css": "postcss styles/tailwind.css -o styles/main.css",
     "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch"
-    "prod:build": "NODE_ENV=production yarn run build:css && yarn run build"
   },
-  "dependencies": {
+    "dependencies": {
     "autoprefixer": "^10.1.0",
     "next": "12.1.0",
     "postcss": "^8.2.1",
