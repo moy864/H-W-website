@@ -4,12 +4,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-     "lint": "next lint",
-     "build:css": "postcss styles/tailwind.css -o styles/main.css",
-     "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch"
-     "prod:build": "NODE_ENV=production yarn run build:css && yarn run build"
-   },
-   "dependencies": {
+    "lint": "next lint",
+    "build:css": "postcss styles/tailwind.css -o styles/main.css",
+    "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch"
+  },
+  "dependencies": {
     "autoprefixer": "^10.1.0",
     "next": "12.1.0",
     "postcss": "^8.2.1",
