@@ -1,14 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "build:css": "postcss styles/tailwind.css -o styles/main.css",
-    "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch"
+    "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
   },
-    "dependencies": {
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
     "autoprefixer": "^10.1.0",
     "next": "12.1.0",
     "postcss": "^8.2.1",
