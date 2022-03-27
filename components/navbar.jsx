@@ -12,7 +12,7 @@ export const Navbar = () => {
     <>
       <nav className={'bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800'}>
         <Link href='/'>
-          <a className='inline-flex items-center p-2 mr-4 '>
+          <a className='inline-flex items-center p-2 mr-4'>
             <span className={'text-xl text-white font-bold uppercase tracking-wide'}>
               Thinking Forwards
             </span>
@@ -51,12 +51,12 @@ export const Navbar = () => {
             </Link>
             <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                Services
+                Skills
               </a>
             </Link>
             <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                About us
+                Learn more
               </a>
             </Link>
             <Link href='/'>
