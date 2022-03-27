@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import './styles/tailwind.css';
+import './styles/tailwind.css'
+import './pages/tailwind.css'
 import styles from '../styles/Home.module.css'
 import { Navbar } from '../components/navbar.jsx';
 
