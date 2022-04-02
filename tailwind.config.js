@@ -1,5 +1,7 @@
 module.exports = {
-  content: [],
+  content: [
+    '/styles/globals.css'
+  ],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
