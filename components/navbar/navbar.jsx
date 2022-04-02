@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={'bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800'}>
+            <nav className={'bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800'}>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4'>
                         <span className={'text-xl text-white font-bold uppercase tracking-wide'}>

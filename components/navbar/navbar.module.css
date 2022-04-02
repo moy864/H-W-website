@@ -12,13 +12,11 @@
 }
 
 .nav {
-z-index: 1;
 background: var(--nav-bg-color);
 }
 
 .title {
-font-family: 'Fjalla One', sans-serif;
-color: var(--brand-color);
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .title p {
