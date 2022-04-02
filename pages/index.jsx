@@ -14,7 +14,7 @@ export default function Home() {
                 </h1>
 
                 <p className={styles.description}>
-                    insert cringe slogan 
+                    insert slogan 
                 </p>
             </main>
         </div>
