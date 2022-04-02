@@ -10,20 +10,20 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={'bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800'}>
+            <nav className={`bg-white border-gray-200 p-3 m-0 flex dark:bg-gray-800 items-center flex-wrap`}>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4'>
-                        <span className={'text-xl text-white font-bold uppercase tracking-wide'}>
+                        <span className={`text-xl text-white font-bold uppercase tracking-wide`}>
                             Thinking Forwards
                         </span>
                     </a>
                 </Link>
 
-                <button className={'mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600'}
+                <button className={'mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 inline-flex lg:hidden ml-auto'}
                     onClick={handleClick}
                 >
   	                <svg
-                        className={'w-6 h-6'}
+                        className={'w-6 h-6 text-black dark:text-white'}
                         fill='none'
                         stroke='currentColor'
                         viewBox='0 0 24 24'
@@ -39,11 +39,9 @@ const Navbar = () => {
                 </button>
 
                 <div
-                    className={`${
-                        active ? '' : 'hidden'
-                    }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+                    className={`w-full lg:inline-flex lg:flex-grow lg:w-auto`}
                 >
-                    <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
+                    <div className={` ${ active ? '' : 'hidden'} lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto`}>
                         <Link href='/'>
                             <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                                 Home
