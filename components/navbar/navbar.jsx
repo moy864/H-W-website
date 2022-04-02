@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-export const Navbar = () => {
+const Navbar = () => {
   const [active, setActive] = useState(false);
 
   const handleClick = () => {
@@ -22,7 +22,7 @@ export const Navbar = () => {
         <button className={'mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600'}
           onClick={handleClick}
         >
-  	 <svg
+  	  <svg
             className={'w-6 h-6'}
             fill='none'
             stroke='currentColor'
@@ -70,3 +70,5 @@ export const Navbar = () => {
     </>
   );
 };
+
+export default Navbar;
