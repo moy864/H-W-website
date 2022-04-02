@@ -17,10 +17,6 @@ export default function Home() {
                     insert cringe slogan 
                 </p>
             </main>
-
-            <footer className={styles.footer}>
-                <p> All content &copy; 2022  Divyakshi Goyal and Molly Jensen</p>
-            </footer>
         </div>
     );
 }
