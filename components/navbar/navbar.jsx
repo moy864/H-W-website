@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`bg-white border-gray-200 p-3 m-0 flex dark:bg-gray-800 items-center flex-wrap`}>
+            <nav className={`bg-gray-800 border-gray-200 p-3 m-0 flex items-center flex-wrap`}>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4'>
                         <span className={`text-xl text-white font-bold uppercase tracking-wide`}>
