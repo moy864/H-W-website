@@ -23,7 +23,7 @@ const Navbar = () => {
                     onClick={handleClick}
                 >
   	                <svg
-                        className={'w-6 h-6 text-black dark:text-white'}
+                        className={'w-6 h-6 text-white'}
                         fill='none'
                         stroke='currentColor'
                         viewBox='0 0 24 24'
